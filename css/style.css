@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    color: #333;
+    
+}
+h1:hover{
+    color:brown;
+}
+.module:hover{
+    background-color:rgb(29, 163, 118);
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header {
+    background: #b4ff1e;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.faq-item:hover{
+    background-color: rgb(36, 168, 224);
+}
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.header .cta-btn{
+    background: #ff6347;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+ .cta-btn:hover{
+   background-color: coral; 
+ }
+.features, .course-structure, .testimonials, .faq {
+    padding: 50px 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.marquee-text {
+    font-size: large;
+    background-color: rgb(66, 219, 224);
+    color: darkmagenta;
+    padding: 5px; 
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.module {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #1e90ff;
+}
+
+.testimonials .testimonial {
+    background-color:#ff6347;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.faq-item {
+    background: #f4f4f4;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin: 0 15px;
+    text-decoration: double;
+}
+
+.footer ul li a {
+    color:coral;
+}
+
+@media (min-width: 768px) {
+    .timeline {
+        flex-direction: row;
+    }
+}
